@@ -9,6 +9,11 @@
     <header class="post-header">
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
+    {{#if image}}
+        <figure>
+            <img src="{{image}}" alt="">
+        </figure>
+    {{/if}}
     <section class="post-excerpt">
         <p>{{excerpt words="142"}} <a class="read-more" href="{{url}}">&raquo;&raquo;&raquo;</a></p>
     </section>
