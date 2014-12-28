@@ -783,6 +783,7 @@ body:not(.post-template) .post-title {
 .post-image{
     width: 100%;
     height: auto;
+    margin-bottom: 1.5rem;
 }
 
 .read-more {
