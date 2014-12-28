@@ -780,6 +780,11 @@ body:not(.post-template) .post-title {
     line-height: 1.5em;
 }
 
+.post-image{
+    width: 100%;
+    height: auto;
+}
+
 .read-more {
     text-decoration: none;
 }
